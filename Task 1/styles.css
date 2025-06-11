@@ -1,0 +1,25 @@
+.progress-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+.progress-wrapper {
+  width: 300%;
+  background-color: grb;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width:1%;
+  height: 25px;
+  background-color: green;
+  text-align: center;
+  line-height: 25px;
+  color: rgb(251, 236, 236);
+  font-weight: bold;
+  transition: width 0.3s ease;
+}
