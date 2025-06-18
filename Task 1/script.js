@@ -13,7 +13,7 @@ function addProgressBar() {
   // Create bar
   const bar = document.createElement("div");
   bar.className = "progress-bar";
-  bar.innerText = "0%";
+//   bar.innerText = "0%";
   wrapper.appendChild(bar);
   container.appendChild(wrapper);
 
@@ -25,7 +25,7 @@ function addProgressBar() {
     } else {
       width++;
       bar.style.width = width + "%";
-      bar.innerText = width + "%";
+    //   bar.innerText = width + "%";
     }
   }, 15);
 }

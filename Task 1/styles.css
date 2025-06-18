@@ -7,10 +7,12 @@
 
 .progress-wrapper {
   width: 300%;
-  background-color: grb;
+  background-color: rgb(143, 132, 132);
   border-radius: 5px;
   margin-bottom: 10px;
   overflow: hidden;
+  border: 1px solid rgb(77, 71, 71);
+
 }
 
 .progress-bar {
@@ -18,8 +20,9 @@
   height: 25px;
   background-color: green;
   text-align: center;
+  border: 2px solid rgb(103, 165, 94);
   line-height: 25px;
   color: rgb(251, 236, 236);
   font-weight: bold;
-  transition: width 0.3s ease;
+  transition: width 0.3s ease;dd
 }
